@@ -4,6 +4,7 @@ import { createStackNavigator } from 'react-navigation';
 
 import TabBarIcon from '../components/TabBarIcon';
 import SettingScreen from '../screens/SettingScreen';
+import UserGuideScreen from '../screens/UserGuideScreen';
 //import ItemDetailScreen from '../screens/ItemDetailScreen';
 const config = Platform.select({
   web: { headerMode: 'screen' },
@@ -12,7 +13,7 @@ const config = Platform.select({
 const SettingStack = createStackNavigator(
   {
     Setting: SettingScreen,
-    
+    UserGuide: UserGuideScreen
   },
   {
     headerMode: 'screen',
