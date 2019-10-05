@@ -19,6 +19,7 @@ export default class HistoryItem extends Component {
             },
             onClick } = this.props;
         let imgScr = ''
+        const imgBackgroundColor =  type === 'setting' ? styles.imgSettingWrapper : styles.imgProductWrapper;
         if (type === 'setting') {
             imgScr = 'https://cdn4.iconfinder.com/data/icons/forgen-phone-settings/48/setting-512.png';
         }
@@ -29,7 +30,7 @@ export default class HistoryItem extends Component {
         return (
 
             <TouchableOpacity style={styles.history} onPress={onClick} >
-                <View style={styles.imgWrapper}>
+                <View style={imgBackgroundColor}>
                     <Image style={styles.img} source={{ uri: imgScr}} />
                 </View>
                 <View style={styles.contentWrapper}>
@@ -49,10 +50,21 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         paddingHorizontal: 5,
         flex: 1,
+        borderBottomColor:'#d7d7d7',
+        borderBottomWidth:0.5
     },
 
-    imgWrapper: {
-        backgroundColor: '#d7d7d7',
+    imgSettingWrapper: {
+        backgroundColor: '#4da6ff',
+        height: 70,
+        width: 70,
+        borderRadius: 35,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+
+    imgProductWrapper: {
+        backgroundColor: '#fcdf03',
         height: 70,
         width: 70,
         borderRadius: 35,
@@ -70,7 +82,7 @@ const styles = StyleSheet.create({
         paddingLeft: 10,
     },
     contentTitle: {
-        color: 'black',
+        color: '#1a1a1a',
         fontSize: 18,
         fontWeight: '900',
     },

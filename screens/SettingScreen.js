@@ -310,20 +310,22 @@ export default class SettingScreen extends Component {
                 <Icon
                   name="question-circle"
                   size={15}
-                  color="white"
+                  color="#2089DC"
                 />
               }
 
               title=" Trợ giúp"
               onPress={() => this.onClickGuide()}
-              raised
+              titleStyle={styles.helpButtonText}
+              buttonStyle={styles.buttonGuide}
+             
             />
             <View style={styles.addMoreSettingRulesWrapper}>
               <Button
                 icon={
                   <Icon
                     name="plus-circle"
-                    size={15}
+                    size={17}
                     color="white"
                   />
                 }
@@ -337,7 +339,7 @@ export default class SettingScreen extends Component {
 
 
           <View style={styles.settingConfirmButtonWrapper}>
-          <View style={styles.buttonDelete}>
+            <View style={styles.buttonDelete}>
               <Button
                 icon={
                   <Icon
@@ -368,7 +370,7 @@ export default class SettingScreen extends Component {
               buttonStyle={styles.buttonSave}
             />
 
-          
+
 
 
           </View>
@@ -392,6 +394,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
 
   },
+  helpButtonText: {
+    color:'#2089DC',
+    fontStyle: 'italic'
+  },
 
   addMoreSettingRulesWrapper: {
     flexDirection: 'row',
@@ -410,7 +416,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   buttonGuide: {
-    backgroundColor: '#b3b3b3',
+    backgroundColor: 'white',
     width: 100,
 
   },
