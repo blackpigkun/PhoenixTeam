@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T19:31:00.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" etag="k4bJbpKvTbZtgTb9-orh" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-28T20:30:44.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" etag="WuRuPU_ZxFEF_AACs_tV" version="18.0.1" type="github">
   <diagram id="O3coM_m_zm5Ynj2vjXyQ" name="Page-1">
-    <mxGraphModel dx="819" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="890" dy="910" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -203,7 +203,7 @@
         <mxCell id="7aCp0_iX8ROO9DkPUOGS-57" value="THÂN NHÂN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7aCp0_iX8ROO9DkPUOGS-58" value="Là" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7aCp0_iX8ROO9DkPUOGS-58" value="Có" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="540" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7aCp0_iX8ROO9DkPUOGS-59" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7aCp0_iX8ROO9DkPUOGS-58" target="7aCp0_iX8ROO9DkPUOGS-1">
@@ -356,7 +356,7 @@
             <mxPoint x="610" y="1565" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7aCp0_iX8ROO9DkPUOGS-100" value="Là" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7aCp0_iX8ROO9DkPUOGS-100" value="Có" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="517" y="1764" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7aCp0_iX8ROO9DkPUOGS-102" value="THÂN NHÂN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -374,8 +374,8 @@
             <mxPoint x="695" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7aCp0_iX8ROO9DkPUOGS-105" value="Bảo hiểm" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="506" y="1990" width="112" height="80" as="geometry" />
+        <mxCell id="7aCp0_iX8ROO9DkPUOGS-105" value="Tham gia Bảo hiểm" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1983" width="124" height="93" as="geometry" />
         </mxCell>
         <mxCell id="7aCp0_iX8ROO9DkPUOGS-106" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7aCp0_iX8ROO9DkPUOGS-105" target="7aCp0_iX8ROO9DkPUOGS-82">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -400,6 +400,30 @@
               <mxPoint x="759" y="2030" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7aCp0_iX8ROO9DkPUOGS-128" value="NHÂN VIÊN" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1417" y="980" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7aCp0_iX8ROO9DkPUOGS-129" value="Mã số&#xa;Họ tên&#xa;Ngày sinh&#xa;Giới tính&#xa;Hệ số lương" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7aCp0_iX8ROO9DkPUOGS-128">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7aCp0_iX8ROO9DkPUOGS-130" value="ĐƠN VỊ" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1617" y="987" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7aCp0_iX8ROO9DkPUOGS-131" value="Số hiệu&#xa;Mã NV Quản lý&#xa;Tên" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7aCp0_iX8ROO9DkPUOGS-130">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7aCp0_iX8ROO9DkPUOGS-132" value="PHÒNG" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1864" y="991" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7aCp0_iX8ROO9DkPUOGS-133" value="Số hiệu&#xa;Mã Đơn vị&#xa;Địa chỉ" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7aCp0_iX8ROO9DkPUOGS-132">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7aCp0_iX8ROO9DkPUOGS-134" value="DỰ ÁN" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1631" y="1185" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7aCp0_iX8ROO9DkPUOGS-135" value="Số hiệu&#xa;Mã Đơn vị&#xa;Địa chỉ" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7aCp0_iX8ROO9DkPUOGS-134">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
